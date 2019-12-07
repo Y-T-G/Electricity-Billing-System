@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="523.0" prefWidth="818.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainScreen">
+   <children>
+      <Pane layoutX="18.0" layoutY="23.0" prefHeight="428.0" prefWidth="632.0" style="-fx-background-color: #37474f;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" layoutX="249.0" layoutY="41.0" text="Electricity Usage Billing System" textFill="WHITE">
+               <font>
+                  <Font name="Open Sans" size="23.0" />
+               </font>
+            </Label>
+            <Button fx:id="modBtn" layoutX="464.0" layoutY="355.0" mnemonicParsing="false" onAction="#handleModBtn" prefHeight="94.0" prefWidth="211.0" style="-fx-background-color: #d32f2f;" text="Modify/Delete entry" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Open Sans Semibold" size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="vexistBtn" layoutX="464.0" layoutY="218.0" mnemonicParsing="false" onAction="#handleVExistBtn" prefHeight="94.0" prefWidth="211.0" style="-fx-background-color: #006064;" text="View existing entries" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Open Sans Semibold" size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="vrateBtn" layoutX="114.0" layoutY="355.0" mnemonicParsing="false" onAction="#handleVRateBtn" prefHeight="94.0" prefWidth="211.0" style="-fx-background-color: #880e4f;" text="View/Make changes to billing rates" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Open Sans Semibold" size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="newBtn" layoutX="114.0" layoutY="218.0" mnemonicParsing="false" onAction="#handleNewBtn" prefHeight="94.0" prefWidth="211.0" style="-fx-background-color: #f50057;" text="Make a new entry" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Open Sans Semibold" size="19.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
